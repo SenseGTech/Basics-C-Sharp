@@ -1,0 +1,32 @@
+using System;
+
+namespace Stringmethods
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String fullName = "George Stankov";
+            String phoneNumber = "123-456-7890";
+
+            // fullName = fullName.ToUpper();
+            // fullName = fullName.ToLower();
+            //Console.WriteLine(fullName);
+            // phoneNumber = phoneNumber.Replace("-", "");  1234567890
+            //Console.WriteLine(phoneNumber);
+
+            //String userName = fullName.Insert(0,"Mr.");  // Mr.George Stankov
+            //Console.WriteLine(userName);
+
+            //Console.WriteLine(fullName.Length);  //14
+
+            String firstName = fullName.Substring(0, 6); //George
+            String lastName = fullName.Substring(7, 7); // Stankov
+            Console.WriteLine(firstName);
+            Console.WriteLine(lastName);
+
+            Console.ReadKey();
+
+        }
+    }
+}

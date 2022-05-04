@@ -1,0 +1,14 @@
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\bin\Debug\netcoreapp3.1\MyFirstprogram.exe
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\bin\Debug\netcoreapp3.1\MyFirstprogram.deps.json
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\bin\Debug\netcoreapp3.1\MyFirstprogram.runtimeconfig.json
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\bin\Debug\netcoreapp3.1\MyFirstprogram.runtimeconfig.dev.json
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\bin\Debug\netcoreapp3.1\MyFirstprogram.dll
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\bin\Debug\netcoreapp3.1\MyFirstprogram.pdb
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.csproj.AssemblyReference.cache
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.AssemblyInfoInputs.cache
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.AssemblyInfo.cs
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.csproj.CoreCompileInputs.cache
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.dll
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.pdb
+C:\Users\6thSense GoGiCH\source\repos\MyFirstprogram\MyFirstprogram\obj\Debug\netcoreapp3.1\MyFirstprogram.genruntimeconfig.cache

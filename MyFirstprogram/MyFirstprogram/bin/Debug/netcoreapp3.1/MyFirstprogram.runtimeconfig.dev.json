@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\6thSense GoGiCH\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\6thSense GoGiCH\\.nuget\\packages"
+    ]
+  }
+}

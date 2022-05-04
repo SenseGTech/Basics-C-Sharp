@@ -1,6 +1,6 @@
 using System;
 
-namespace Arithmethicoperators
+namespace Arithmetic_operators
 {
     class Program
     {

@@ -1,0 +1,18 @@
+using System;
+
+namespace Randomnumbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random random = new Random();
+            int num = random.Next(1, 50);
+            //double num = random.NextDouble(); //between zero and one
+            Console.WriteLine(num);
+
+            Console.ReadKey();
+
+        }
+    }
+}

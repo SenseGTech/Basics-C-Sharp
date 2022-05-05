@@ -1,0 +1,24 @@
+using System;
+
+namespace whileloop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //while loop = repeats some code while some condition remains true
+            Console.Write("Enter your name: ");     // OR
+            String name = Console.ReadLine();       // String name = "";
+
+
+            while (1 == 1)
+            {
+                Console.WriteLine("I'M STUCK IN AN INFINITE LOOP!");
+            }
+
+            Console.WriteLine("Hello " + name);
+            Console.ReadKey();
+
+        }
+    }
+}

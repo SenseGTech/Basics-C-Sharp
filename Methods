@@ -1,0 +1,28 @@
+using System;
+
+namespace Methods
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //methods = perfom a section of code , whenever it's called "invoked".
+            //benefit = Let's reuse code w/o writing it multiple times
+            String name = "George";
+            int age = 25;
+            singHappyBirthday(name, age);
+            
+            Console.ReadKey();
+            
+        }
+        static void singHappyBirthday(String name , int age)
+        {
+        Console.WriteLine("Happy Birthday to you!");
+        Console.WriteLine("Happy Birthday to you!");
+        Console.WriteLine("Happy Birthday to you! " + name);
+            Console.WriteLine("You are " + age +  " years old");
+        Console.WriteLine("Happy Birthday to you!");
+            Console.WriteLine();
+        }
+    }
+}

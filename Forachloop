@@ -1,0 +1,21 @@
+using System;
+
+namespace Foreachloop
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //foreachloop = iterate over an array, but it's less flexible
+            String[] cars = { "BMW" , "Mercedes", "Audi"};
+            
+          
+            foreach (String car in cars)
+            {
+                Console.WriteLine(car);
+            }
+            Console.ReadKey();
+
+        }
+    }
+}

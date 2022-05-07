@@ -1,0 +1,19 @@
+using System;
+
+namespace Stringinterpolation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            String firstName = "George";
+            String lastName = "Stankov";
+            int age = 25;
+            //Console.WriteLine("Hello " + firstName + " " + lastName ".") ;
+            Console.WriteLine($"Hello {firstName} {lastName}");
+            Console.WriteLine($"You are {age} years old.");
+            Console.ReadKey();
+
+        }
+    }
+}

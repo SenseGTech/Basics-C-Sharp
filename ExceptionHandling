@@ -1,0 +1,48 @@
+using System;
+
+namespace ExceptionHandling
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // exception = errors that occur during execution
+            //try = try some code that is considered "dangeous"
+            //finaly = always executes regardless if exception is caught or not
+
+            int x;
+            int y;
+            double result;
+            try
+            {
+                Console.Write("Enter number 1: ");
+                x = int.Parse(Console.ReadLine());
+                
+                Console.Write("Enter number 2: ");
+                y = int.Parse(Console.ReadLine());
+                
+                result = x / y;
+                Console.WriteLine("result: " + result);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Enter ONLY numbers PLEASE!");
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("You can't divede by zero!");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Something went wrong!");
+            }
+            finally
+            {
+                Console.WriteLine("Thanks for visiting!");
+            }
+
+            Console.ReadLine();
+
+        }
+    }
+}

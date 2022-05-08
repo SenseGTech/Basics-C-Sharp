@@ -1,0 +1,42 @@
+using System;
+
+namespace objects
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // object=An instance ofaclass
+            //A class can be used asablueprint to create objects(00P)
+            //objects can have fields&methods(characteristics & actions)
+            Human human1 = new Human();
+            Human human2 = new Human();
+            human1.name = "Rick";
+            human2.name = "George";
+            
+            human1.age = 65;
+            human2.age = 18;
+            human1.Eat();
+            human1.Sleep();
+            human2.Eat();
+            human2.Sleep();
+
+            Console.ReadKey();
+
+        }
+    }
+    class Human
+    {
+        public String name;
+        public int age;
+
+        public void Eat()
+        {
+            Console.WriteLine(name + " is eating ");
+        }
+        public void Sleep()
+        {
+            Console.WriteLine(name + " is sleeping");
+        }
+    }
+}

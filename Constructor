@@ -1,0 +1,46 @@
+using System;
+
+namespace constructor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //A special method in a class = constructor
+             //Same name as the class name
+            //Can be used to assign arguments to fields when creating an object
+            Human human1 = new Human("Rick",65);
+            Human human2 = new Human("George",18);
+            human1.name = "Rick";
+            human2.name = "George";
+            
+            human1.age = 65;
+            human2.age = 18;
+            human1.Eat();
+            human1.Sleep();
+            human2.Eat();
+            human2.Sleep();
+
+            Console.ReadKey();
+
+        }
+    }
+    class Human
+    {
+        public String name;
+        public int age;
+        public Human(String name, int age)
+        {
+            this.name = name;
+            this.age = age;
+        }
+        public void Eat()
+        {
+            Console.WriteLine(name + " is eating ");
+        }
+        public void Sleep()
+        {
+            Console.WriteLine(name + " is sleeping");
+        }
+    }
+}

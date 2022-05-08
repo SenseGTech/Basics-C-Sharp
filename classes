@@ -1,0 +1,51 @@
+using System;
+
+namespace classes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //class = a bundle of related code.
+            //Can be used as a blueprint to create objects (OOP)
+            MyFirstprogram.Messages.Hello();
+            MyFirstprogram.Messages.Waiting();
+            MyFirstprogram.Messages.Bye();
+
+          
+            Console.ReadKey();
+
+        }
+    }
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////CLASS MESSAGES//////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MyFirstprogram
+{
+   static class Messages
+    {
+        public static void Hello()
+        {
+            Console.WriteLine("Hello! Welcome to the program!");
+        }
+        public static void Waiting()
+        {
+            Console.WriteLine("I'm waiting for something");
+        }
+        public static void Bye()
+        {
+            Console.WriteLine("Bye!Thanks for visiting!");
+        }
+    }
+}
